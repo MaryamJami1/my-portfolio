@@ -4,14 +4,15 @@ import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '../utils/motion'
 import { SparklesIcon } from '@heroicons/react/16/solid'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function HeaderContent() {
     return (
         <motion.div
             initial='hidden'
             animate='visible'
-            className='flex flex-row items-center justify-center px-20 mt-[40] w-full z-[20]'>
-            <div className='flex flex-col w-full h-full gap-5  justify-center m-auto text-start'>
+            className='flex flex-row items-center justify-center px-20 mt-[40] w-full z-[20]' id="about-me">
+            <div className='flex flex-col w-full h-full gap-5  justify-center m-auto text-start' >
                 <motion.div
                     variants={slideInFromTop}
                     className='Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9] mt-[7rem]'>
@@ -37,14 +38,15 @@ export default function HeaderContent() {
                  variants={slideInFromLeft(1)}
                  className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
                  >
-                    Learn more
+                  <Link href="/maryam-jamil-resume.lnk">Download Resume</Link>
+                   
 
                 </motion.a>
 
             </div>
             <motion.div
               variants={slideInFromRight(0.8)}
-              className='w-full h-full flex justify-center items-center'>
+              className='w-full h-full flex justify-center items-center mt-[60px]'>
                 <Image
                 src="/mainIconsdark.svg"
                 alt="icons"
