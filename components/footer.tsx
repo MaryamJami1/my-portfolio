@@ -17,6 +17,7 @@ const Footer = () => {
                 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                    <div className="font-bold text-[16px]">Community</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Youtube</span>    
@@ -24,8 +25,7 @@ const Footer = () => {
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>                    <div className="font-bold text-[16px]">Community</div>
-
+                    </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
@@ -58,13 +58,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">maryamjamilofficial@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Maryam jamil Inc. All rights reserved
             </div>
         </div>
     </div>
