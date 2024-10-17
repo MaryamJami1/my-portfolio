@@ -22,9 +22,9 @@ const Projects = () => {
           description="Developed a dynamic resume builder using HTML, CSS, and TypeScript, enabling real-time content updates and customizable templates for an intuitive user experience."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/to-do.png"
+          title="To-do List"
+          description="Built a to-do list application using HTML, CSS, and JavaScript, featuring task addition, editing, and deletion with persistent data storage for seamless task management."
         />
       </div>
     </div>
