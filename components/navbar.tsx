@@ -45,13 +45,13 @@ const Navbar = () => {
               height={24}
             />
           ))} */}
-          <a className="text-white text-2xl" href="" ><FaLinkedin />
+          <a className="text-white text-2xl" href="https://www.linkedin.com/in/maryam-jamil---/" ><FaLinkedin />
 
 
           </a>
-          <a className="text-white text-2xl" href="" ><FaGithubSquare />
+          <a className="text-white text-2xl" href="https://github.com/MaryamJami1" ><FaGithubSquare />
           </a>
-          <a className="text-white text-3xl" href="" ><SiMinutemailer />
+          <a className="text-white text-3xl" href="mailto:maryamjamilofficial@gmail.com" ><SiMinutemailer />
 
 
           </a>

@@ -24,9 +24,9 @@ export default function HeaderContent() {
                     variants={slideInFromLeft(0.5)}
                     className='flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto'>
                     <span>
-                    providing
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                    project experience
+                        providing
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
+                        project experience
                     </span>
                 </motion.div>
                 <motion.p
@@ -35,23 +35,23 @@ export default function HeaderContent() {
                     I&apos; am a frontend developer with expereince in websites. check out my projects and skills.
                 </motion.p>
                 <motion.a
-                 variants={slideInFromLeft(1)}
-                 className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
-                 >
-                  <Link href="/maryam-jamil-resume.lnk">Download Resume</Link>
-                   
-
+                    href="/maryam-jamil-resume.lnk"
+                    variants={slideInFromLeft(1)}
+                    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+                >
+                    Download Resume
                 </motion.a>
+
 
             </div>
             <motion.div
-              variants={slideInFromRight(0.8)}
-              className='w-full h-full flex justify-center items-center mt-[60px]'>
+                variants={slideInFromRight(0.8)}
+                className='w-full h-full flex justify-center items-center mt-[60px]'>
                 <Image
-                src="/mainIconsdark.svg"
-                alt="icons"
-                height={650}
-                width={650}/>
+                    src="/mainIconsdark.svg"
+                    alt="icons"
+                    height={650}
+                    width={650} />
 
             </motion.div>
         </motion.div>
