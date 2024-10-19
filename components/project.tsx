@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/projectCards";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -11,37 +12,56 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 ">
-        <ProjectCard
-          src="/charity.png"
-          title="Charity Website"
-          description="Built a responsive charity website using Next.js and Tailwind CSS, optimizing performance and SEO.enhancing user experience and performance. "
-        />
-        <ProjectCard
-          src="/resume-builder.png"
-          title="Resume Builder"
-          description="Developed a dynamic resume builder using HTML, CSS, and TypeScript, enabling real-time content updates and customizable templates for an intuitive user experience."
-        />
-        <ProjectCard
-          src="/to-do.png"
-          title="To-do List"
-          description="Built a to-do list application using HTML, CSS, and JavaScript, featuring task addition, editing, and deletion with persistent data storage for seamless task management."
-        />
-      
-        <ProjectCard
-          src="/calculator.png"
-          title="Calculator"
-          description="Developed a responsive calculator using HTML, CSS, and JavaScript, providing basic arithmetic operations with a user-friendly interface and real-time input validation for a smooth experience."
-        />
+        <a
+          href={"https://charity-website-virid.vercel.app/"} target="_blank" className="z-20">
           <ProjectCard
-          src="/CLI-IMAGE.png"
-          title="CLI Atm Machine"
-          description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication. "
-        />
-        <ProjectCard
-          src="/form.png"
-          title="Sign u"
-          description="Built a to-do list application using HTML, CSS, and JavaScript, featuring task addition, editing, and deletion with persistent data storage for seamless task management."
-        />
+            src="/charity.png"
+            title="Charity Website"
+            description="Built a responsive charity website using Next.js and Tailwind CSS, optimizing performance and SEO.enhancing user experience and performance. "
+          />
+        </a>
+        <a
+          href={"https://milestone-4-steel.vercel.app/"} target="_blank" className="z-20">
+          <ProjectCard
+            src="/resume-builder.png"
+            title="Resume Builder"
+            description="Developed a dynamic resume builder using HTML, CSS, and TypeScript, enabling real-time content updates and customizable templates for an intuitive user experience."
+          />
+        </a>
+        <a
+          href={"https://maryamjami1.github.io/todo-app/"} target="_blank" className="z-20">
+          <ProjectCard
+            src="/to-do.png"
+            title="To-do List"
+            description="Built a to-do list application using HTML, CSS, and JavaScript, featuring task addition, editing, and deletion with persistent data storage for seamless task management."
+          />
+        </a>
+        <a
+          href={"https://maryamjami1.github.io/local-storage-form/"} target="_blank" className="z-20">
+          <ProjectCard
+            src="/form.png"
+            title="Sign up form"
+            description="Created a responsive sign-up form using HTML, CSS, and JavaScript, featuring real-time form validation, error handling, and user-friendly interface to ensure a seamless registration process."
+          />
+        </a>
+
+        <a
+          href={"https://charity-website-virid.vercel.app/"} target="_blank" className="z-20">
+          <ProjectCard
+            src="/CLI-IMAGE.png"
+            title="CLI Atm Machine"
+            description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication. "
+          />
+        </a>
+        <a
+          href={"https://charity-website-virid.vercel.app/"} target="_blank" className="z-20">
+          <ProjectCard
+            src="/calculator.png"
+            title="Calculator"
+            description="Developed a responsive calculator using HTML, CSS, and JavaScript, providing basic arithmetic operations with a user-friendly interface and real-time input validation for a smooth experience."
+          />
+        </a>
+
       </div>
     </div>
   );
