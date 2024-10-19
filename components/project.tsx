@@ -45,16 +45,15 @@ const Projects = () => {
           />
         </a>
 
-        <a
-          href={"https://charity-website-virid.vercel.app/"} target="_blank" className="z-20">
+        
           <ProjectCard
             src="/CLI-IMAGE.png"
             title="CLI Atm Machine"
-            description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication. "
+            description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication.(npm i m6j5_cli_atm_machine) "
           />
-        </a>
+   
         <a
-          href={"https://charity-website-virid.vercel.app/"} target="_blank" className="z-20">
+          href={"https://maryamjami1.github.io/calculator/"} target="_blank" className="z-20">
           <ProjectCard
             src="/calculator.png"
             title="Calculator"
