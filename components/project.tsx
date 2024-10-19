@@ -26,19 +26,20 @@ const Projects = () => {
           title="To-do List"
           description="Built a to-do list application using HTML, CSS, and JavaScript, featuring task addition, editing, and deletion with persistent data storage for seamless task management."
         />
+      
         <ProjectCard
-          src="/charity.png"
-          title="Charity Website"
-          description="Built a responsive charity website using Next.js and Tailwind CSS, optimizing performance and SEO.enhancing user experience and performance. "
+          src="/calculator.png"
+          title="Calculator"
+          description="Developed a responsive calculator using HTML, CSS, and JavaScript, providing basic arithmetic operations with a user-friendly interface and real-time input validation for a smooth experience."
+        />
+          <ProjectCard
+          src="/CLI-IMAGE.png"
+          title="CLI Atm Machine"
+          description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication. "
         />
         <ProjectCard
-          src="/resume-builder.png"
-          title="Resume Builder"
-          description="Developed a dynamic resume builder using HTML, CSS, and TypeScript, enabling real-time content updates and customizable templates for an intuitive user experience."
-        />
-        <ProjectCard
-          src="/to-do.png"
-          title="To-do List"
+          src="/form.png"
+          title="Sign u"
           description="Built a to-do list application using HTML, CSS, and JavaScript, featuring task addition, editing, and deletion with persistent data storage for seamless task management."
         />
       </div>
