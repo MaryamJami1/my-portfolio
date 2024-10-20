@@ -25,14 +25,16 @@ export default function HeaderContent() {
                     className='flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto'>
                     <span>
                         providing
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                        project experience
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> exceptional </span>
+                        project solutions
                     </span>
+
+
                 </motion.div>
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className='text-lg text-slate-400 my-5 max-w-[600px]'>
-                    I&apos; am a frontend developer with expereince in websites. check out my projects and skills.
+                    className='text-lg text-slate-400 my-5 max-w-[600px]'>I&apos; am a frontend developer focused on building modern, efficient websites. Browse through my projects and skills.
+
                 </motion.p>
                 <motion.a
                     href="/maryam-jamil-resume.lnk"
