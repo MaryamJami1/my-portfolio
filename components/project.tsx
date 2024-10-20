@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/projectCards";
-import Link from "next/link";
+
 
 const Projects = () => {
   return (
