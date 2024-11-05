@@ -10,7 +10,7 @@ export default function HeaderContent() {
         <motion.div
             initial='hidden'
             animate='visible'
-            className='flex flex-row items-center justify-center px-20 mt-[40] w-full z-[20]' id="about-me">
+            className='flex flex-row items-center justify-center px-20 mt-[40] mb-11 w-full z-[20]' id="about-me">
             <div className='flex flex-col w-full h-full gap-5  justify-center m-auto text-start' >
                 <motion.div
                     variants={slideInFromTop}

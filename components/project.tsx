@@ -5,9 +5,7 @@ import ProjectCard from "../components/projectCards";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-18"
-      id="projects"
-    >
+      className="flex flex-col items-center justify-center pt-7 pb-[5rem]" id="projects">
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
@@ -45,13 +43,13 @@ const Projects = () => {
           />
         </a>
 
-        
-          <ProjectCard
-            src="/CLI-IMAGE.png"
-            title="CLI Atm Machine"
-            description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication.(npm i m6j5_cli_atm_machine) "
-          />
-   
+
+        <ProjectCard
+          src="/CLI-IMAGE.png"
+          title="CLI Atm Machine"
+          description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication.(npm i m6j5_cli_atm_machine) "
+        />
+
         <a
           href={"https://maryamjami1.github.io/calculator/"} target="_blank" className="z-20">
           <ProjectCard

@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { SiMinutemailer } from 'react-icons/si';
@@ -27,17 +28,17 @@ const Navbar = () => {
         
         <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-[#0300145e]`}>
           <div className="flex flex-col items-center py-2">
-            <a href="#about-me" className="py-2 text-gray-200">About Me</a>
-            <a href="#skills" className="py-2 text-gray-200">Skills</a>
-            <a href="#projects" className="py-2 text-gray-200">Projects</a>
+            <Link href={'/'} className="cursor-pointer">About Me</Link>
+            <Link href={'/skills'} className="cursor-pointer">Skills</Link>
+            <Link href={'/projects'} className="cursor-pointer">Projects</Link>
           </div>
         </div>
 
         <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">About Me</a>
-            <a href="#skills" className="cursor-pointer">Skills</a>
-            <a href="#projects" className="cursor-pointer">Projects</a>
+          <Link href={'/'} className="cursor-pointer">About Me</Link>
+          <Link href={'/skills'} className="cursor-pointer">Skills</Link>
+            <Link href={'/projects'} className="cursor-pointer">Projects</Link>
           </div>
         </div>
 
