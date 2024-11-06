@@ -43,6 +43,14 @@ const Projects = () => {
           />
         </a>
 
+        <a
+          href={"https://technology-website-next-js.vercel.app/"} target="_blank" className="z-20">
+          <ProjectCard
+            src="/technology.png"
+            title="Technology Website"
+            description="Built a responsive technology website using Next.js and Custom CSS, optimizing performance and SEO.enhancing user experience and performance and fully responsive "
+          />
+        </a>
 
         <ProjectCard
           src="/CLI-IMAGE.png"
@@ -50,14 +58,7 @@ const Projects = () => {
           description="Developed a CLI-based ATM machine using TypeScript, providing core banking functionalities such as balance inquiries, withdrawals, and secure PIN authentication.(npm i m6j5_cli_atm_machine) "
         />
 
-        <a
-          href={"https://maryamjami1.github.io/calculator/"} target="_blank" className="z-20">
-          <ProjectCard
-            src="/calculator.png"
-            title="Calculator"
-            description="Developed a responsive calculator using HTML, CSS, and JavaScript, providing basic arithmetic operations with a user-friendly interface and real-time input validation for a smooth experience."
-          />
-        </a>
+        
 
       </div>
     </div>
