@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     // navbar
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+      <div className="w-full h-full flex md:flex-row items-center justify-between m-auto px-[10px]">
         <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             Maryam Jamil
@@ -22,12 +22,12 @@ const Navbar = () => {
         </a>
 
         
-        <div className="md:hidden" onClick={toggleMobileMenu}>
-          <button className="text-white text-2xl">☰</button>
+        <div className="md:hidden w-full" onClick={toggleMobileMenu}>
+          <button className="text-white text-3xl">☰</button>
         </div>
 
         
-        <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-[#0300145e]`}>
+        <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-[#0300145e] text-white`}>
           <div className="flex flex-col items-center py-2">
             <Link href={'/'} className="cursor-pointer">About Me</Link>
             <Link href={'/skills'} className="cursor-pointer">Skills</Link>
