@@ -3,16 +3,21 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { SiMinutemailer } from 'react-icons/si';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
-    // navbar
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex md:flex-row items-center justify-between m-auto px-[10px]">
         <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
@@ -21,24 +26,33 @@ const Navbar = () => {
           </span>
         </a>
 
-        
+
+
         <div className="md:hidden w-full" onClick={toggleMobileMenu}>
-          <button className="text-white text-3xl">☰</button>
+          <button className="text-white text-3xl">
+            {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
 
-        
+
         <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-[#0300145e] text-white`}>
           <div className="flex flex-col items-center py-2">
-            <Link href={'/'} className="cursor-pointer">About Me</Link>
-            <Link href={'/skills'} className="cursor-pointer">Skills</Link>
-            <Link href={'/projects'} className="cursor-pointer">Projects</Link>
+            <Link href="/" onClick={closeMobileMenu}>
+              About Me
+            </Link>
+            <Link href="/skills" onClick={closeMobileMenu}>
+              Skills
+            </Link>
+            <Link href="/projects" onClick={closeMobileMenu}>
+              Projects
+            </Link>
           </div>
         </div>
 
         <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-          <Link href={'/'} className="cursor-pointer">About Me</Link>
-          <Link href={'/skills'} className="cursor-pointer">Skills</Link>
+            <Link href={'/'} className="cursor-pointer">About Me</Link>
+            <Link href={'/skills'} className="cursor-pointer">Skills</Link>
             <Link href={'/projects'} className="cursor-pointer">Projects</Link>
           </div>
         </div>
@@ -54,3 +68,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
