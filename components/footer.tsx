@@ -22,7 +22,7 @@ const Footer = () => {
                         <RxGithubLogo />
                      <a href="https://github.com/MaryamJami1" target="_blank"><span className="text-[15px] ml-[6px] ">Github</span></a>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer z-20">
+                    <p className="flex flex-row items-center mb-[20px] cursor-pointer z-20">
                         <RxDiscordLogo />
                         <a href="https://discord.com/channels/@me/1211711150836944916" target="_blank"><span className="text-[15px] ml-[6px]">Discord</span></a> 
                     </p>
@@ -34,7 +34,7 @@ const Footer = () => {
                        <a href="https://www.instagram.com/maryam_jamil._/profilecard/?igsh=ZG5xc3cxbGEzdWt" target="_blank"><span className="text-[15px] ml-[6px]">Instagram</span></a>     
                     </p>
                   
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer z-20">
+                    <p className="flex flex-row items-center mb-[20px] cursor-pointer z-20">
                         <RxLinkedinLogo />
                         <a href="https://www.linkedin.com/in/maryam-jamil---/" target="_blank"><span className="text-[15px] ml-[6px]">Linkedin</span></a>     
                         </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                         <RxLinkedinLogo />
                        <a href="https://www.linkedin.com/in/maryam-jamil---/" target="_blank"><span className="text-[15px] ml-[6px]">Linkedin</span></a>     
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer z-20">
+                    <p className="flex flex-row items-center mb-[20px] cursor-pointer z-20">
                   
                         <a href="mailto:maryamjamilofficial@gmail.com" target="_blank"><span className="text-[15px] ml-[6px]">maryamjamilofficial@gmail.com</span></a>
                     </p>

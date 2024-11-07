@@ -36,14 +36,13 @@ export default function HeaderContent() {
 
                 </motion.p>
                 <motion.a
-                    href="/maryam-jamil-resume.lnk"
-                    variants={slideInFromLeft(1)}
+                    href="/maryam jamil resume.pdf"  
+                    download="maryam jamil resume.pdf"
+                    variants={slideInFromLeft(1)} 
                     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
                 >
                     Download Resume
                 </motion.a>
-
-
             </div>
             <motion.div
                 variants={slideInFromRight(0.8)}
