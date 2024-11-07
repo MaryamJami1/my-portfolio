@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '../utils/motion'
+import { slideInFromLeft } from '../utils/motion'
 
 
 const SkillText = () => {
